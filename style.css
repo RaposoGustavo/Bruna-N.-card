@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid black;
+    color: white;
+
+    background-image: url(img/girassol-img.jpg);
+    background-size: cover;
+}
+
+.perfil-img{
+    height: 250px;
+    border-radius: 5%;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contato p {
+    background: #ff3131;
+    margin: 15px;
+}
+
+.phone-numbers{
+    background: #ff3131;
+}
+
+@media (max-width: 395px){
+    .nome{
+        font-size: 25px;
+    }
+}
